@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="This Login page for Medico website">
+<title>Medico Contact Us </title>
+<link rel="icon" href="../Images/healthcare_logo.png" type="image/x-icon">
+	
+										<!--BootStrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	  
+										  <!-- CSS-->
+<link rel="stylesheet" type="text/css" href="../CSS/ContactUsStylesheet.css">
+</head>
+<body>
+
+<!-- ******************* Header ******************* -->
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light ">
+<a href="index.html" class="navbar-brand">
+<img src="../Images/healthcare_logo.png" alt="HealthCare Logo" width="90px" height="60px" class="d-inline-block align-top"/>
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav text-center ms-auto links" >
+<li class="nav-item "> <a class="nav-link" href="index.html"target="_self">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="Services.html"target="_self">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="Doctors.html"target="_self">Doctors</a></li>
+<li class="nav-item"><a class="nav-link" href="FAQs.html"target="_self">FAQs</a></li>
+<li class="nav-item active"><a class="nav-link" href="Contact.html"target="_self">Contact us</a></li>
+</ul>
+
+
+<!-- login and signup -->
+<ul class="nav navbar-nav navbar-right text-center signUpLogin">
+<li><a href="SignUp.html"><i class="bi bi-person-circle"></i> Sign Up</a></li>
+<li><a  href="Login.html"><i class="bi bi-box-arrow-in-right "></i> Login</a></li>  
+</ul> 
+<form class="navbar-form navbar-right">
+<div class="input-group">
+<input type="text" class="form-control searchInput" placeholder="Search">
+<div class="input-group-btn">
+<button class="btn btn-default" type="submit">
+<i class="bi bi-search"></i>
+</button>
+</div>
+</div>
+</form>
+
+
+
+</div>
+</nav>
+</div>
+
+
+
+<!-- *************************** First  Div *************************** -->  
+<div id="first"></div>
+<!-- *************************** Second  Div *************************** -->  
+
+
+
+<center>
+<div id="second" >  
+<h1>contact details</h1>
+<!--div map-->
+<div id="map"> 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.8054032296745!2d31.018882214898966!3d30.07111198187261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b979b7d1dd9%3A0x88f29d027c44f959!2sInformation%20Technology%20Institute!5e0!3m2!1sen!2seg!4v1643641874713!5m2!1sen!2seg"  width="1000" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
+</div> 
+<br>
+<!--div contact-->
+<div id="cont">
+<img src="../Images/loc.png" alt="Location">
+<span> ITI, Smart valige, 6 Octobar</span>
+<br> 
+<img src="../Images/phone.png">
+<span> Mobile : +01023485290  Or : +011444466766  Or :+01094765105</span>
+<br> <img src="../Images/email.png"> 
+<span>Email :Tabiby@gmail.com</span> </div> 
+</div>
+<!-- close second div -->
+</div>
+
+<!-- *************************** Leave question *************************** -->    
+<center>
+<div id="leave">
+<p>Leave Your Message</p> 
+<form> <input type="text" name="Name" placeholder="Enter Your Name" size="15" maxlength="30" pattern="[A-Za-z]{3,30}" required> 
+<input type="email" name="Email" placeholder="Enter Your Email" size="15" maxlength="30" pattern="[A-Za-z]{3,30}" required>
+<br><br>   
+<textarea cols="102"  rows="10" ></textarea> </form>
+<input id="send" type="submit" value="Send">
+</div>
+<!-- *************************** Footer *************************** -->     
+</center>
+<!--FOOTER -->
+<footer>
+<div class="footer" id="footer">
+<div class="container">
+<div class="row">
+<div class="col-xs">
+<h3> Services </h3>
+<ul>
+<li> <a href="Services.html"> Take Care Of Your Child </a> </li>
+<li> <a href="Services.html"> Patient stories </a> </li>
+<li> <a href="Services.html"> Buy Your Medicine</a> </li>
+<li> <a href="Services.html"> Body Mass Index Calculator </a> </li>
+</ul>
+</div>
+<div class="col-xs">
+<h3> DOCTORS </h3>
+<ul>
+<li> <a href="Doctors.html"> Our Staff </a> </li>
+<li> <a href="Doctors.html"> Join Our Staff </a> </li>
+<li> <a href="Doctors.html"> Book Reservation </a> </li>
+</ul>
+</div>
+<div class="col-xs">
+<h3> Branches </h3>
+<ul>
+<li> <a href="Contact.html"> Contact Us </a> </li>
+<li> <a href="Contact.html"> Our Location </a> </li>
+<li> <a href="Contact.html"> Our Contact </a> </li>
+</ul>
+</div>
+<div class="col-xs">
+<h3> FAQS </h3>
+<ul>
+<li> <a href="FAQs.html"> Ask & get Answers </a> </li>
+<li> <a href="FAQs.html"> FREQUENTLY ASKED QUESTIONS </a> </li>
+</ul>
+</div>
+
+<div class="col-xs">
+<h3> Social Media </h3>
+
+<ul class="social">
+<li id="face"> <a href="https://www.facebook.com"> <i class="bi bi-facebook">   </i> </a> </li>
+<li id="twitter"> <a href="https://twitter.com/"> <i class="bi bi-twitter">   </i> </a> </li>
+<li id="google"> <a href="https://www.google.com/"> <i class="bi bi-google">   </i> </a> </li>
+<li id="pinterest"> <a href="https://www.pinterest.com/"> <i class="bi bi-pinterest">   </i> </a> </li>
+<li id="youtube"> <a href="https://www.youtube.com/"> <i class="bi bi-youtube">   </i> </a> </li>
+</ul>
+</div>
+</div>
+<!--/.row--> 
+</div>
+<!--/.container--> 
+</div>
+
+
+<!--/.footer-bottom-->
+<div class="footer-bottom">
+<div class="row">
+<span class="col pull-left"> Copyright &copy; By: Yara Emad & Osama Sayed & Mostafa Gamal Eldeen ITI-QA Intake-42. </span>
+
+<div class="col pull-right">
+<ul class="nav nav-pills payments">
+<li><i class="bi bi-cash-coin"></i></li>
+<li><i class="bi bi-credit-card"></i></li>
+<li><i class="bi bi-wallet"></i></li>
+<li><i class="bi bi-paypal" aria-hidden="true"></i></li>
+</ul> 
+</div>
+</div>
+</div> 
+</footer> 
+
+
+</body>
+
+
+</html>    

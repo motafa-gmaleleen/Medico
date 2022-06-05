@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="This Doctors page for Medico patient website">
+<title>Medico Doctors </title>
+<link rel="icon" href="../Images/healthcare_logo.png" type="image/x-icon">
+
+									<!--BootStrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+									   <!-- CSS-->
+<link rel="stylesheet" type="text/css" href="../CSS/doctorsStyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!-- ******************* Header ******************* -->
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light ">
+<a href="index.html" class="navbar-brand">
+<img src="../Images/healthcare_logo.png" alt="HealthCare Logo" width="90px" height="60px" class="d-inline-block align-top"/>
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav text-center ms-auto links" >
+<li class="nav-item "> <a class="nav-link" href="index.html"target="_self">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="Services.html"target="_self">Services</a></li>
+<li class="nav-item active"><a class="nav-link" href="Doctors.html"target="_self">Doctors</a></li>
+<li class="nav-item"><a class="nav-link" href="FAQs.html"target="_self">FAQs</a></li>
+<li class="nav-item "><a class="nav-link" href="Contact.html"target="_self">Contact us</a></li>
+</ul>
+
+
+<!-- login and signup -->
+<ul class="nav navbar-nav navbar-right text-center signUpLogin">
+<li><a href="SignUp.html"><i class="bi bi-person-circle"></i> Sign Up</a></li>
+<li><a  href="Login.html"><i class="bi bi-box-arrow-in-right "></i> Login</a></li>  
+</ul> 
+<form class="navbar-form navbar-right">
+<div class="input-group">
+<input type="text" class="form-control searchInput" placeholder="Search">
+<div class="input-group-btn">
+<button class="btn btn-default" type="submit">
+<i class="bi bi-search"></i>
+</button>
+</div>
+</div>
+</form>
+
+
+
+</div>
+</nav>
+</div>
+
+<!-- ******************* First Div ******************* -->
+
+<div id="first"> <span>Our Doctors Staff</span> </div>
+
+<!-- ******************* Third Div ******************* -->
+
+<div id="third"> <p>Doctors</p> <div id="fimg"></div> <div id="simg"></div> <div id="timg"></div>      
+
+</div>
+<!-- ******************* Text for Img Divs ******************* -->
+
+<div id="t1"> <p> <span>James G. Avery</span>Associate Professor, Clinical Medicine
+Washington University Clinical Associates - Grant Medical <br><br> <b>Specialty Areas</b>Internal Medicine<br>
+Primary Care<br>
+Bone and Mineral Diseases <br><br> <b>Location : </b> 114 North Taylor <br>
+St. Louis, MO 63108<br>
+Phone: (314) 534-8600<br><br> <b>Office Phone: </b>  (314) 534-8600 <br> <b>Fax:</b>(314) 652-8138</p> </div>
+
+<div id="t2"> <p> <span>Jennifer L. Arter</span>Assistant Professor, Clinical Pediatrics
+Washington University Clinical Associates - Blue Fish Pediatrics <br><br> <b>Specialty Areas</b> <br> Pediatrics<br>
+Internal Medicine <br><br> <b>Location : </b> 12360 Manchester Road<br>
+Suite 100<br>
+St. Louis, MO 63131 <br><br><b>Office Phone: </b> (314) 966-8500 <br> <b>Fax:</b> (314) 966-4499  </p> </div>
+
+<div id="t3"> <p> <span>Riad Raymond Azar</span>Associate Professor, Medicine
+Division of Gastroenterology
+Director of Endoscopic Ultrasound<br><br> <b>Specialty Areas</b> <br>Gastroenterology<br><br> <b>Location : </b>4921 Parkview Place<br>
+St. Louis, MO 63110 <br>Suite: B /Floor: 10<br><br><b>Office Phone: </b>314-747-2066<br> <b>Fax:</b>314-747-1277</p> </div>
+
+<!-- ******************* cont Third Div ******************* -->
+
+<div id="third2"><div id="fourimg"></div> <div id="fiveimg"></div> <div id="siximg"></div>      </div>
+
+<!-- ******************* cont Text for Img Divs ******************* -->
+<div id="t4">  <p> <span>Rajendra S. Apte</span>Paul A. Cibis Distinguished Professor of Ophthalmology and Visual Sciences<br><br> <b>Specialty Areas</b> <br>Radiology
+Ophthalmology, Retina
+Retina
+Ophthalmology<br><br> <b>Location : </b>4901 Forest Park Avenue<br>
+St. Louis, MO 63108<br><br><b>Office Phone: </b>314-362-EYES<br> <b>Fax:</b>-</p> </div>
+
+<div id="t5"> <p> <span>Catherine M. Appleton</span>Associate Professor, Radiology
+Division of Diagnostic Radiology
+Chief, Breast Imaging Section<br><br> <b>Specialty Areas</b> <br>Radiology
+Breast Imaging
+Breast Oncology
+Magnetic Resonance Imaging<br><br> <b>Location : </b>969 N. Mason Road<br>
+Creve Coeur, MO 63141<br><br><b>Office Phone: </b>314-747-7222<br> <b>Fax:</b> 314-362-3725</p>  </div>
+
+<div id="t6">  <p> <span>Ana Maria Arbelaez,</span>Assistant Professor, Pediatrics
+Chief, Division of Pediatric Endocrinology and Diabetes<br><br> <b>Specialty Areas</b> <br>Pediatric Endocrinology
+Pediatric Diabetes<br><br> <b>Location : </b>1020 N. Mason Road<br>
+St. Louis, MO 63141<br><br><b>Office Phone: </b> 314-454-6051<br> <b>Fax:</b>-</p> </div>
+
+<div id="last"> <div id="lmid1"> <p> Join Our Doctors Staff </p></div> 
+<div id="lmid2">                     
+<form> 
+<input type="text" name="Name" placeholder="Enter Your Name"  size="15" maxlength="30" pattern="[A-Za-z]{3,30}" required>
+<input type="email" name="Email" placeholder="Enter your Email" size="15" maxlength="30" pattern="[A-Za-z]{3,30}" required>
+<input type="text" name="Phonnumber" placeholder="Enter your number"  size="11" maxlength="30" pattern=".{11}" required>
+<input type="date" name="Date" placeholder="Enter your Birthdate" required>
+<input type="text" name="Specialty Areas" placeholder="Enter Your Specialty Areas" size="15" maxlength="30" pattern="[A-Za-z]{3,30}" required>
+<input type="text" name="Experince" placeholder="Enter Your Previous Experiences" size="15" maxlength="30" pattern="[A-Za-z]{3,30}" required >
+<input type="button" value="Send" >
+
+</form>
+</div>
+</div>
+<!-- ******************* Footer Div ******************* -->
+<!--FOOTER -->
+<footer>
+<div class="footer" id="footer">
+<div class="container">
+<div class="row">
+<div class="col-xs">
+<h3> Services </h3>
+<ul>
+<li> <a href="Services.html"> Take Care Of Your Child </a> </li>
+<li> <a href="Services.html"> Patient stories </a> </li>
+<li> <a href="Services.html"> Buy Your Medicine</a> </li>
+<li> <a href="Services.html"> Body Mass Index Calculator </a> </li>
+</ul>
+</div>
+<div class="col-xs">
+<h3> DOCTORS </h3>
+<ul>
+<li> <a href="Doctors.html"> Our Staff </a> </li>
+<li> <a href="Doctors.html"> Join Our Staff </a> </li>
+<li> <a href="Doctors.html"> Book Reservation </a> </li>
+</ul>
+</div>
+<div class="col-xs">
+<h3> Branches </h3>
+<ul>
+<li> <a href="Contact.html"> Contact Us </a> </li>
+<li> <a href="Contact.html"> Our Location </a> </li>
+<li> <a href="Contact.html"> Our Contact </a> </li>
+</ul>
+</div>
+<div class="col-xs">
+<h3> FAQS </h3>
+<ul>
+<li> <a href="FAQs.html"> Ask & get Answers </a> </li>
+<li> <a href="FAQs.html"> FREQUENTLY ASKED QUESTIONS </a> </li>
+</ul>
+</div>
+
+<div class="col-xs">
+<h3> Social Media </h3>
+
+<ul class="social">
+<li id="face"> <a href="https://www.facebook.com"> <i class="bi bi-facebook">   </i> </a> </li>
+<li id="twitter"> <a href="https://twitter.com/"> <i class="bi bi-twitter">   </i> </a> </li>
+<li id="google"> <a href="https://www.google.com/"> <i class="bi bi-google">   </i> </a> </li>
+<li id="pinterest"> <a href="https://www.pinterest.com/"> <i class="bi bi-pinterest">   </i> </a> </li>
+<li id="youtube"> <a href="https://www.youtube.com/"> <i class="bi bi-youtube">   </i> </a> </li>
+</ul>
+</div>
+</div>
+<!--/.row--> 
+</div>
+<!--/.container--> 
+</div>
+
+
+<!--/.footer-bottom-->
+<div class="footer-bottom">
+<div class="row">
+<span class="col pull-left"> Copyright &copy; By: Yara Emad & Osama Sayed & Mostafa Gamal Eldeen ITI-QA Intake-42. </span>
+
+<div class="col pull-right">
+<ul class="nav nav-pills payments">
+<li><i class="bi bi-cash-coin"></i></li>
+<li><i class="bi bi-credit-card"></i></li>
+<li><i class="bi bi-wallet"></i></li>
+<li><i class="bi bi-paypal" aria-hidden="true"></i></li>
+</ul> 
+</div>
+</div>
+</div> 
+</footer>          
+</header>
+
+</html>

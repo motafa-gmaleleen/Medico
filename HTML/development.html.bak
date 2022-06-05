@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="This Development page for Medico website">
+<title>Childern Development</title>
+<link rel="icon" href="../Images/healthcare_logo.png" type="image/x-icon">
+							<!-- CSS-->
+<link rel="stylesheet" type="text/css" href="../CSS/childStyle.css">
+</head>
+<body>
+
+<!-- *************************** Second  Div *************************** -->  
+<div id="second"> <img src="../Images/child_develop.png"> <div id="text"> <p> <span>What is Child Development? :-</span> <b>What is Child Development?</b> <br><br>Child development refers to the sequence of physical, language, thought and emotional changes that occur in a child from birth to the beginning of adulthood. During this process a child progresses from dependency on their parents/guardians to increasing independence. Child development is strongly influenced by genetic factors (genes passed on from their parents) and events during prenatal life. It is also influenced by environmental facts and the child’s learning capacity. <br> <br>
+Child development can be actively enhanced through targeted therapeutic intervention and the ‘just right’ home based practice, recommended by Occupational Therapists and Speech Therapists. <br><br> <b>What does child development include?
+</b> <br><br> Child development covers the full scope of skills that a child masters over their life span including development in:
+<br><br> <ol> <li>Cognition – the ability to learn and problem solve</li> <li>Social interaction and emotional regulation – interacting with others and mastering self-control</li> <li>Speech and Language – understanding and using language, reading and communicating</li> <li>Physical skills – fine motor (finger) skills and gross motor (whole body) skills</li> <li>Sensory awareness –  the registration of sensory information for use</li> </ol> <br><br><br> <b>Why is child development important?</b> <br><br>Observing and monitoring child development is an important tool to ensure that children meet their ‘developmental milestones’. Developmental milestones (a ‘loose’ list of developmental skills that believed to be mastered at roughly the same time for all children but that are far from exact) act as a useful guideline of ideal development.<br><br> By checking a child’s developmental progress at particular age markers against these arbitrary time frames, it allows a ‘check in’ to ensure that the child is roughly ‘on track’ for their age. If not, this checking of developmental milestones  can be helpful in the early detection of any hiccups in development. This ‘check’ is usually carried out through child/mother services and Paediatricians as infants and toddlers, and later through preschool and school term skills assessments. <br><br> The earliest possible detection (and early intervention treatment if appropriate) of developmental challenges can be helpful in minimizing the impact these developmental hiccups can have on a child’s skill development and subsequently their confidence, or serve as an indicator of a possible future diagnosis. <br><br> Developmental milestone checklists or charts are used as a guide as to what is ‘normal’ for a particular age range and can be used to highlight any areas in which a child might be delayed. However, it is important to be aware that while child development has a predictable sequence, all children are unique in their developmental journey and the times frames that they meet the many developmental milestones. <br><br><br> <b>Problems in Child Development:</b> <br> <br>
+Problems in child development can arise due to: genetics, prenatal circumstances, the presence of a specific diagnosis or medical factors, and/or the lack of opportunity or exposure to helpful stimuli. Specific assessment by the best fit professional (which may initially be the GP or Paediatrician, and then Occupational Therapist, Speech Therapist, Psychologist and/or Physiotherapist) can provide clarity about the developmental issues and extent of concern as well as can help to formulate a plan to overcome the challenge(s). As the process of child development involves multiple skills developing simultaneously, there may then be benefit in consulting multiple professionals. <br> <br> Overcoming the developmental challenges is crucial to maximising the ease and speed of development, minimizing the gap that occur between a child’s ability and those of their same aged peers, the confidence of the child as well as the frustration that can be encountered by the child’s parents and/or care-givers. <br> <br> 
+<b>Act </b> now if you are concerned about your child’s development by calling us on <b>1800 KIDSENSE (1800 543 736).</b>
+</p>
+<br><br>
+
+<p id="lp"><b>Source : <a class="mayo" href="https://childdevelopment.com.au/areas-of-concern/what-is-child-development/"  target="_blank">Kid Sense</a> </b> </p>
+</div> </div>
+
+</body>
+
+</html>    

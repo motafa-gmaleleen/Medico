@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="This page for This Navigation page for Medico patient Stories">
+<title>Medico Services -Child-</title>
+<link rel="icon" href="../Images/healthcare_logo.png" type="image/x-icon">
+									<!--BootStrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+										<!-- CSS-->
+<link rel="stylesheet" type="text/css" href="../CSS/childStyle.css">
+</head>
+<body>
+
+<!-- ******************* Header ******************* -->
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light ">
+<a href="index.html" class="navbar-brand">
+<img src="../Images/healthcare_logo.png" alt="HealthCare Logo" width="90px" height="60px" class="d-inline-block align-top"/>
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav text-center ms-auto links" >
+<li class="nav-item "> <a class="nav-link" href="index.html"target="_blank">Home</a></li>
+<li class="nav-item active"><a class="nav-link" href="Services.html" target="_blank">Services</a></li>
+<li class="nav-item"><a class="nav-link" href="Doctors.html"target="_blank">Doctors</a></li>
+<li class="nav-item"><a class="nav-link" href="FAQs.html"target="_blank">FAQs</a></li>
+<li class="nav-item"><a class="nav-link" href="Contact.html"target="_blank">Contact us</a></li>
+</ul>
+
+
+<!-- login and signup -->
+<ul class="nav navbar-nav navbar-right text-center signUpLogin">
+<li><a href="SingUp.html"><i class="bi bi-person-circle"></i> Sign Up</a></li>
+<li><a  href="Login.html"><i class="bi bi-box-arrow-in-right"></i> Login</a></li>  
+</ul> 
+<form class="navbar-form navbar-right">
+<div class="input-group">
+<input type="text" class="form-control searchInput" placeholder="Search">
+<div class="input-group-btn">
+<button class="btn btn-default" type="submit">
+<i class="bi bi-search"></i>
+</button>
+</div>
+</div>
+</form>
+
+
+
+</div>
+</nav>
+</div>
+
+
+</body>
+</html>    

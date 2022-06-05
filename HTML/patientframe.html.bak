@@ -1,0 +1,28 @@
+<head>
+<base target="service" />
+<meta charset="utf-8">
+<meta name="description" content="This FAQs page for Tabiby website which conten the most question we get from visitors">
+<title>Patient Stories</title>
+<link rel="icon" href="../Images/healthcare_logo.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../CSS/patientStyle.css"></head>
+<!-- header -->
+<frameset border="0" noresize="yes" rows="20%,*">
+<frame scrolling="yes" src="navbarpatient.html" />
+
+<!--menu -->
+<frameset border="2px;" cols="25%,*">
+<frame scrolling="no" src="patientstories.html" />
+
+<!-- main body -->
+<frameset rows="*">
+<frame scrolling="yes" name="patient" src="story1.html" />
+<!--<frame scrolling="no" src="E:\software testing & QA ITI\web\day3 assig\footer.html" />-->
+
+<!--<frameset rows="*,10%">
+
+<frame scrolling="no" src="E:\software testing & QA ITI\web\day3 assig\footer.html" />
+
+</frameset>-->
+</frameset>
+</frameset>
+</frameset>
