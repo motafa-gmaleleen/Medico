@@ -1,0 +1,333 @@
+.container-fluid{
+margin:0px;
+padding:0px;
+width:100%;
+text-align:right;
+background-color:#dfdfdf;
+}
+
+
+.links{
+padding-left:15px;
+padding-right:380px;
+color: #2c405a;
+
+}
+
+.links li a
+{
+
+font-weight: 600;
+}
+.links li a:hover{
+
+color:#5c646b;
+}
+.signUpLogin
+{
+padding-right:10px;
+}
+.signUpLogin li{
+padding-right:10px;
+}
+
+.signUpLogin li a i{
+padding-left:5px;
+}
+
+.signUpLogin li a {
+color: #2c405a;
+}
+
+.signUpLogin li a:hover{
+text-decoration:none;
+
+}
+
+.btn-default{
+background-color:#FFFF;
+border-radius: 0px 50px 50px 0px;
+}
+
+.searchInput{
+background-color:#FFFF;
+border:none;
+border-radius: 50px
+}
+
+.loginform{
+background-color: grey;
+width: 200px;
+
+}
+
+.loginform li{
+
+margin-left:10px;
+margin-bottom: 15px;
+}
+
+/* ----------------------- First Div ----------------------- */
+#first {background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/bodymassca.png");height: 565px;width: 100%px;text-transform: uppercase;}
+#first p {color: white;font-size: 70px;padding-left: 690px;padding-top: 110px;font-weight: 600}
+#first span {color: white;font-size: 30px;padding-left: 1120px;font-weight: 600}
+
+/* ----------------------- Second Div ----------------------- */
+
+#second p{font-size: 50px;color: #25688e;text-align: center;margin: 50px ;text-transform: capitalize;}
+#spans{font-size: 60px;color: #25688e;text-align: center;margin: 50px ;text-transform: capitalize; padding-top:10px;}
+#second img { padding:0px 0px 10px 0px;display: inline-block;float:left;transition: .2s;}
+#second img:hover{transform: scale(1.1);}
+
+#second #discr { display: inline-block;background-color: #B6B1B6;margin:0px 0px 10px 0px;height: 300px;width: 969px}
+#second #discr span {font-size: 28px;margin:0px;display: block; color: #2874af}
+#second #discr p { margin: 10px 10px 0px 30px;float: left;font-size: 18px;line-height: 40px;display: inline-block;color: #333d4c}
+#palign {text-align:left;}
+#second #discr p a {text-decoration: none; color: #2874af;font-size: 22px}
+
+
+/* ----------------------- third Div ----------------------- */
+
+
+.rows {
+display: flex;
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#25688e;    margin-top: -28px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+flex: 33.33%;
+padding-left: 80px;
+padding-right:80px;
+margin-bottom:60px;
+margin-top:20px;
+
+}
+
+#third { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#25688e;margin-top: 60px; position: relative;}
+
+#third img { padding-left: 127px;padding-top: 50px; }
+.column img:hover { transform: scale(1.1);}
+#third p {color: white;font-size: 80px;text-align: center;padding-top:20px; padding-bottom:20px;}
+
+#asty{display:inline-block;color: white;line-height: 25px;text-align:center;padding-top:15px;padding-bottom:15px;}
+/* ----------------------- Fourth Div ----------------------- */
+#pharmacy {background-color: #2874af;margin-top:60px;}
+#pharmacy p{font-size: 50px;color: snow;text-align: center;text-transform: capitalize;padding: 50px 0px 0px 0px;font-weight: 600}
+
+/* ----------------------- Calculate BIM ----------------------- */
+#bim {background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/bodymasss.png");height: 100%;width: 100%;}
+#bim h1{text-align: center;padding: 30px 0px 40px 0px;color: snow;font-size:50px;margin-top: 60px;}
+#in {border: 1px solid #ccc;padding: 10px 30px 10px 30px;font-size: 18px;border-radius: 10px;margin-top:10px; }
+#bim p {padding-bottom: 20px;padding:0px 20px 20px 0px; font-size: 20px;display: inline-block;font-size: 20px;color:whitesmoke}
+#f{padding: 50px 0px 10px 0px}
+#out {border: 1px solid #ccc;margin-left: 20px;padding: 5px;font-size: 18px;border-radius: 10px}
+#out2 {border: 1px solid #ccc;padding: 5px;font-size: 18px;border-radius: 10px}
+#butt {border: 1px solid #ccc;margin:20px 0px 30px 0px;background-color: #fff; color:#0c88cd;padding: 10px; font-size: 17px;border-radius: 15px }
+#butt2  {border: 1px solid #ccc;margin:20px 0px 30px 0px;background-color: #fff; color:#0c88cd;padding: 10px 30px 10px 30px; font-size: 17px;border-radius: 15px }
+.forms{display:block;text-align:center;}
+
+/* ----------------------- Take Offers  -----------------------*/
+#offer{text-align:center;}
+#offer p {color: dimgray; font-size: 47px;font-weight: 600;margin-top:30px;margin-bottom:30px;}
+#offer form input {border: 1px solid #ccc;width: 50%;height: 34px;background-color:white;font-size: 15px;border-radius: 5px;padding:6px 12px;float:center;}
+#send {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+background-color: #25688e; 
+color: white; 
+font-size: 20px; 
+width:200px;
+height:50px;
+border-radius:20px;
+margin-bottom:80px;
+border: 1px solid #ccc;
+}
+
+
+
+/* ----------------------- media tag -----------------------*/
+@media screen and (max-width:1365px){
+
+
+#last { width: 100%}
+.links{width: 100%}
+.links ul li a { padding: 5px 10px; }
+#first {width: 100%}
+#first p{padding: 300px 0px 20px 0px;}
+#first span{padding: 10px;font-size: 15px}
+#second {width: 100%}
+#second p {font-size: 50px}
+#second img { width: 100% }
+#second  #discr { width: 100%; }
+
+/* ----------------------- third Div ----------------------- */
+#third { width: 100% }
+#third img { padding:0px 10% 0px 10%;width: 100%;}
+#third #3links {display: none}  
+#pharmacy {width:100%}
+
+/* ----------------------- Calculate BIM ----------------------- */
+
+#bim {width: 100%}
+#bim h1{text-align: left;padding: 30px 0px 40px 50px;color: snow;font-size:40px}
+#in { margin:20px 0px 10px 30%;padding: 10px;font-size: 18px;border-radius: 10px }
+#bim p {padding-bottom: 20px;padding:0px 20px 20px 10%;display: inline-block;font-size: 18px;font-weight: 600;color:whitesmoke}
+#out {margin-left: 20px;padding: 5px;font-size: 16px;border-radius: 10px}
+#out2 {padding: 5px;font-size: 16px;border-radius: 10px}
+#butt {margin:20px 0px 30px 35%;background-color: #fff; color:#0c88cd;padding: 10px; font-size: 17px;border-radius: 40px }
+#butt2  {margin:20px 0px 30px 40%;background-color: #fff; color:#0c88cd;padding: 10px; font-size: 17px;border-radius: 40px }
+
+
+/* ----------------------- Take Offers  -----------------------*/
+#offer{text-align:center;}
+#offer p { font-size: 50px;color:black;font-weight: 600;}
+#offer form input {width: 300px; height: 30px;margin: 0px 20px 0px 0px;background-color:gainsboro;font-size: 20px;border-radius: 5px}
+#send {     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+background-color: #74b2d4; color: white; font-size: 20px; width: 200px;height: 50px;border-radius: 40px;margin-bottom: 80px;margin-left: 50px}
+
+#end {width: 100%;padding-left: 40% }
+
+
+@media screen and (max-width:700px){
+#first {width: 100%}
+#first p{padding: 300px 0px 20px 30px;font-size: 30px}
+#first span{padding-left: 40px;font-size: 15px}
+#second {width: 100%}
+#second p {font-size: 30px}
+#second img { width: 100% }
+#second  #discr { width: 100%;height: 500px}
+#second  #discr p {font-size: 15px }
+#pharmacy {width:100%}
+#pharmacy p {font-size: 30px}
+#pharmacy img {padding: 10px 0px 20px 30px ;margin: 10px}
+}
+/* ----------------------- Take Offers  -----------------------*/
+
+
+#last { width: 100%}
+.links{width: 100%}
+.links ul li{width: 100%;margin: 10px;}
+.links ul li a { padding: 5px 10px; }
+#end {width: 100%;padding-left: 0%;font-size: 12px }
+
+}
+@media screen and (max-width:415px){
+#second  #discr { width: 100%;height: 800px}
+
+
+
+}
+
+
+
+
+.footer {
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+background-color: #25688e;
+height: auto;
+padding-bottom: 30px;
+width:100%;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #DDDDDD;
+}
+
+
+.footer h3 {
+border-bottom: 1px solid #BAC1C8;
+color: #2874af;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+padding: 40px 0 10px;
+text-transform: uppercase;
+}
+.footer ul {
+font-size: 13px;
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+margin-top: 15px;
+color: #7F8C8D;
+}
+.footer ul li a {
+padding: 0 0 5px 0;
+display: block;
+}
+.footer a {
+color: #78828D
+}
+
+
+.social li {
+background: none repeat scroll 0 0 #B5B5B5;
+border: 2px solid #B5B5B5;
+border-radius: 50%;
+float: left;
+height: 36px;
+line-height: 36px;
+margin: 0 8px 0 0;
+padding: 0;
+text-align: center;
+width: 36px;
+transition: all 0.5s ease 0s;
+}
+.social li:hover {
+transform: scale(1.15) rotate(360deg);
+}
+.social li a {
+color: #EDEFF1;
+}
+.social li:hover {
+border: 2px solid white;
+}
+
+.social #face:hover{
+background-color:blue;
+}
+
+.social #twitter:hover{
+background-color: #00CED1;
+}
+
+.social #google:hover{
+background-color: #FF4500;
+}
+
+.social #youtube:hover{
+background-color: #FF0000;
+}
+
+.social #pinterest:hover{
+background-color: #800000;
+}
+
+
+.social li a i {
+font-size: 16px;
+margin: 0 0 0 5px;
+color: #EDEFF1;
+}
+.footer-bottom {
+background: grey;
+color: white;
+border-top: 1px solid #DDDDDD;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+
+}
+.pull-left {
+font-size:15px;
+margin-right:0%;
+margin-left:6%;
+}
+
+.pull-right ul{
+margin-left:70%;
+}
+.pull-right ul i{
+padding-right:10px;
+}
+
+.col-xs{
+margin-left:5%;
+}

@@ -1,0 +1,168 @@
+/*                                          */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic",sans-serif;
+}
+
+
+.container-fluid{
+margin:0px;
+padding:0px;
+width:100%;
+text-align:right;
+background-color:#dfdfdf;
+}
+
+
+.links{
+padding-left:15px;
+padding-right:380px;
+color: #2c405a;
+
+}
+
+.links li a
+{
+
+font-weight: 600;
+}
+.links li a:hover{
+
+color:#5c646b;
+}
+.signUpLogin
+{
+padding-right:10px;
+}
+.signUpLogin li{
+padding-right:10px;
+}
+
+.signUpLogin li a i{
+padding-left:5px;
+}
+
+.signUpLogin li a {
+color: #2c405a;
+}
+
+.signUpLogin li a:hover{
+text-decoration:none;
+
+}
+
+.btn-default{
+background-color:#FFFF;
+border-radius: 0px 50px 50px 0px;
+}
+
+.searchInput{
+background-color:#FFFF;
+border:none;
+border-radius: 50px
+}
+
+.loginform{
+background-color: grey;
+width: 200px;
+
+}
+
+.loginform li{
+
+margin-left:10px;
+margin-bottom: 15px;
+}
+.container{
+margin:0px;
+padding:0px;
+width:100%;
+}
+
+/* ----------------------- First Div ----------------------- */
+#first {background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/background.png");height: 565px;width: 1349px;text-transform: uppercase;}
+#first p {color: white;font-size: 70px;padding-left: 850px;padding-top: 320px;font-weight: 600;text-align:center }
+#first span {color: white;font-size: 30px;padding-left: 980px;font-weight: 600}
+
+/* ----------------------- Second Div ----------------------- */
+#second {display: inline-block; width: 990px;margin-top: 0px;background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1))}
+#second img{padding: 0px 0px 0px 0px; }
+#second p {padding-left: 10px;padding-right: 10px}
+#second p span  {font-size: 33px;margin:0px;display: block; color: #25688e;padding: 50px 0px 30px 0px;text-decoration: underline}
+#text { background-color:#e4e4e4;margin-left: 120px;width: 750px }
+#second table td {border-top: solid 1px;padding: 9px  }
+#second table caption {font-weight: 600 }
+#lt {padding-bottom: 50px}
+#lp { padding: 0px ;
+padding-bottom:30px;
+font-size:20px;
+color:#25688e;
+}
+.mayo{
+	text-decoration: none;
+	font-size:20px;
+	color:#6B686B;
+}
+/* ----------------------- Third Div ----------------------- */
+#third { display: inline-block;width: 354px;height: 3609px;background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4;float: right}
+#third h1 { color: white; font-size: 40px; padding: 40px 0px 50px 20px}
+#third span { color: #e4e4e4;font-size: 18px;}
+#third img{ padding: 20px 0px}
+#third p { padding: 20px;color: white;line-height: 50px}
+#third a { text-decoration: none; color:0c88cd; font-weight: 600 }
+ol li a{ text-decoration: none ;font-size: 16px }
+/* ----------------------- Protect Page third ----------------------- */
+#third1 { display: inline-block;width: 354px;height: 2150px;background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4;float: right}
+#third1 h1 { color: white; font-size: 40px; padding: 40px 0px 50px 20px}
+#third1 span { color: #e4e4e4;font-size: 18px;}
+#third1 img{ padding: 20px 0px}
+#third1 p { padding: 20px;color: white;line-height: 19px}
+#third1 a { text-decoration: none; color:0c88cd; font-weight: 600 }
+ol li a{ text-decoration: none ;font-size: 16px }
+
+/* ----------------------- Weaning Page third ----------------------- */
+#third2 { display: inline-block;width: 354px;height: 2660px;background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4;float: right}
+#third2 h1 { color: white; font-size: 40px; padding: 40px 0px 50px 20px}
+#third2 span { color: #e4e4e4;font-size: 18px;}
+#third2 img{ padding: 20px 0px}
+#third2 p { padding: 20px;color: white;line-height: 25px}
+#third2 a { text-decoration: none; color:0c88cd; font-weight: 600 }
+ol li a{ text-decoration: none ;font-size: 16px }
+
+
+/* ----------------------- Footer  -----------------------*/
+#end {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#74b2d4 ;height: 95px;padding:10px 0px 0px 500px }
+footer #end img {display: inline-block;padding: 10px 0px 0px 30px }
+
+/* ----------------------- media tag -----------------------*/
+@media screen and (max-width:1365px){
+    
+    #last { width: 100%}
+    .links{width: 100%}
+    .links ul li a { padding: 5px 10px; }
+/* ----------------------- First div -----------------------*/
+#first { width: 100%}
+ 
+#first p {font-size: 50px;padding-left: 5%; }
+#first span {font-size: 20px;padding-left: 50%;}
+    #second {width: 100%}
+    #second img {width: 100%}
+    #second  p {width: 100%}
+    #second #text span {width: 100%}
+    #third {display: none}
+}
+
+@media screen and (max-width:700px){
+#first { width: 100%}
+ 
+#first p {font-size: 30px;padding-left: 5%; }
+#first span {font-size: 15px;padding-left: 30%;}
+    #last { width: 100%}
+    .links{width: 100%}
+    .links ul li{width: 100%;margin: 10px;}
+    .links ul li a { padding: 5px 10px; }
+    #end {width: 100%;padding-left: 0%;font-size: 12px }
+    
+}

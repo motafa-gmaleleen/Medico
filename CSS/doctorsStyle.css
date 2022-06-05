@@ -1,0 +1,274 @@
+/*                                          */
+*
+{
+margin: 0;
+padding: 0;
+font-family: "Century Gothic",sans-serif;
+}
+
+.container-fluid{
+margin:0px;
+padding:0px;
+width:100%;
+text-align:right;
+background-color:#dfdfdf;
+}
+.navbar{
+background-color:#dfdfdf;
+}
+
+.links{
+padding-left:15px;
+padding-right:380px;
+color: #2c405a;
+
+}
+
+.links li a
+{
+
+font-weight: 600;
+}
+.links li a:hover{
+
+color:#5c646b;
+}
+.signUpLogin
+{
+padding-right:10px;
+}
+.signUpLogin li{
+padding-right:10px;
+}
+
+.signUpLogin li a i{
+padding-left:5px;
+}
+
+.signUpLogin li a {
+color: #2c405a;
+}
+
+.signUpLogin li a:hover{
+text-decoration:none;
+
+}
+
+.btn-default{
+background-color:#FFFF;
+border-radius: 0px 50px 50px 0px;
+}
+
+.searchInput{
+background-color:#FFFF;
+border:none;
+border-radius: 50px
+}
+
+.loginform{
+background-color: grey;
+width: 200px;
+
+}
+
+.loginform li{
+
+margin-left:10px;
+margin-bottom: 15px;
+}
+.container{
+margin:0px;
+padding:0px;
+width:100%;
+}
+/* ----------------------- First div -----------------------*/
+#first { background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/3d.png");width: 100%;height: 563px;}
+#first span {font-size: 70px;color: white;text-transform:uppercase;display: block;padding-top: 380px;font-weight: 600;font-family: Century Gothic;padding-left: 350px}
+/* ----------------------- Third div -----------------------*/
+
+#third p {text-align: center; font-size: 45px;padding-top: 50px;text-transform:uppercase;font-weight: 600;color: #25688e;text-align: center;text-transform: capitalize;} 
+#fimg {background-image:url("../Images/11.png");height: 300px;width: 28%;margin: 60px 0px 0px 8%; display: inline-block;background-repeat: no-repeat;} 
+#simg {background-image:url("../Images/22.png");height: 300px;width: 28%;margin: 60px 0px 0px 50px; display: inline-block;background-repeat: no-repeat;}
+#timg {background-image:url("../Images/3.png");height: 300px;width: 28%;margin: 60px 0px 0px 50px; display: inline-block;background-repeat: no-repeat;}
+/* ----------------------- Text for first img  -----------------------*/
+#t1 { background-color:#f4f4f4 ;width: 25%;margin-left: 5%;line-height: 30px;text-align: center;display: inline-block;padding-left:10px;padding-right:10px;}
+#t1 p span { font-size: 30px;text-align: center ;margin: 0px;padding: 0px;display:block;padding: 30px 0px 30px 20px;}
+/* ----------------------- Text for second img  -----------------------*/
+
+#t2 { background-color:#f4f4f4 ;width: 24%;margin-left: 6%;line-height: 30px;text-align: center;display: inline-block;margin-top: 20px;padding-left:10px;padding-right:10px;}
+#t2 p span { font-size: 30px;text-align: center ;margin: 0px;display:block;padding: 30px 0px 30px 0px;text-align: center}
+/* ----------------------- Text for Third img  -----------------------*/
+
+#t3 { background-color:#f4f4f4 ;width: 25%;margin-left: 7%;line-height: 32px;text-align: center;display: inline-block}
+#t3 p span { font-size: 30px;text-align: center ;margin: 0px;display:block;padding: 30px 0px 30px 20px;}
+/* ----------------------- cont Third div  -----------------------*/
+
+#fourimg {background-image:url("../Images/4.png");height: 300px;width: 28%;margin: 60px 0px 0px 100px; display: inline-block;background-repeat: no-repeat;} 
+#fiveimg {background-image:url("../Images/5.png");height: 300px;width: 28%;margin: 60px 0px 0px 50px; display: inline-block;background-repeat: no-repeat;}
+#siximg  {background-image:url("../Images/6.png");height: 300px;width: 28%;margin: 60px 0px 0px 50px; display: inline-block;background-repeat: no-repeat;}
+/* ----------------------- cont Text for Third img  -----------------------*/
+/* ----------------------- Text for first img  -----------------------*/
+#t4 { background-color:#f4f4f4 ;width: 27%;margin-left: 5%;line-height: 30px;text-align: center;display: inline-block}
+#t4 p span { font-size: 25px;text-align: center ;margin: 0px;padding: 0px;display:block;padding: 30px 0px 30px 20px;}
+/* ----------------------- Text for second img  -----------------------*/
+
+#t5 { background-color:#f4f4f4 ;width: 27%;margin-left: 4%;line-height: 30px;text-align: center;display: inline-block;margin-top: 20px;}
+#t5 p span { font-size: 30px;text-align: center ;margin: 0px;display:block;padding: 30px 0px 30px 20px;}
+
+/* ----------------------- Text for Third img  -----------------------*/
+
+#t6 { background-color:#f4f4f4 ;width: 27%;margin-left: 4%;line-height: 32px;text-align: center;display: inline-block;}
+#t6 p span { font-size: 29px;text-align: center ;margin: 0px;display:block;padding: 30px 0px 30px 0px;}
+
+
+/* ----------------------- Last Div  -----------------------*/
+#last {background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-color:#25688e;margin-top: 70px;height: 770px}
+
+#last #lmid1 p {color:white ; font-size: 50px;line-height: 120px;text-align: center;font-family: "Roboto",sans-serif}
+#last #lmid2 { text-align: -webkit-center;}
+#last #lmid2 form input {border: 1px solid #ccc;border-radius: 5px;display: block;margin: 30px 0px 0px 0px;width: 450px;height: 40px;text-align: center;font-size: 20px}
+
+
+/* ----------------------- media tag -----------------------*/
+@media screen and (max-width:1375px){
+
+#third{width:  100%} 
+#fimg {width: 33%}
+#simg {width: 33%}
+#timg {width: 33%;margin:400px 0px 0px 100px}
+#t1 {width: 33%}
+#t2 {width: 33%}
+#t3 {width: 33%;margin:310px 0px 0px 100px}
+
+#third2{width:  100%} 
+#fourimg{width: 33%}
+#fiveimg{width: 33%}
+#siximg{width: 40%;margin:490px 0px 0px 95px}
+#t4 {width: 33%}
+#t5 {width: 33%}
+#t6 {width: 33%;margin:310px 0px 0px 100px}
+#second{width: 100%;height: 600px}
+#second button a { font-size: 15px; border-radius: 50px;padding: 10px}
+#second button{border-radius: 50px;padding: 10px;margin-left: 45%}
+#first {width: 100%}
+#last { width: 100%}
+.links{width: 100%}
+.links ul li a { padding: 5px 10px; }
+#end {width: 100%;padding-left: 40% }
+}
+
+
+
+
+
+.footer {
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+background-color: #25688e;
+height: auto;
+padding-bottom: 30px;
+width:100%;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #DDDDDD;
+}
+
+
+.footer h3 {
+border-bottom: 1px solid #BAC1C8;
+color: #2874af;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+padding: 40px 0 10px;
+text-transform: uppercase;
+}
+.footer ul {
+font-size: 13px;
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+margin-top: 15px;
+color: #7F8C8D;
+}
+.footer ul li a {
+padding: 0 0 5px 0;
+display: block;
+}
+.footer a {
+color: #78828D
+}
+
+
+.social li {
+background: none repeat scroll 0 0 #B5B5B5;
+border: 2px solid #B5B5B5;
+border-radius: 50%;
+float: left;
+height: 36px;
+line-height: 36px;
+margin: 0 8px 0 0;
+padding: 0;
+text-align: center;
+width: 36px;
+transition: all 0.5s ease 0s;
+}
+.social li:hover {
+transform: scale(1.15) rotate(360deg);
+}
+.social li a {
+color: #EDEFF1;
+}
+.social li:hover {
+border: 2px solid white;
+}
+
+.social #face:hover{
+background-color:blue;
+}
+
+.social #twitter:hover{
+background-color: #00CED1;
+}
+
+.social #google:hover{
+background-color: #FF4500;
+}
+
+.social #youtube:hover{
+background-color: #FF0000;
+}
+
+.social #pinterest:hover{
+background-color: #800000;
+}
+
+
+.social li a i {
+font-size: 16px;
+margin: 0 0 0 5px;
+color: #EDEFF1;
+}
+.footer-bottom {
+background: grey;
+color: white;
+border-top: 1px solid #DDDDDD;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+
+}
+.pull-left {
+font-size:15px;
+margin-right:0%;
+margin-left: 5%;
+}
+
+.pull-right ul{
+margin-left:70%;
+}
+.pull-right ul i{
+padding-right:10px;
+}
+
+.col-xs{
+margin-left:6%;
+}
